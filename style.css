@@ -1,0 +1,32 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+.text-white:hover{
+    font-weight: bold;
+    background-color: red;
+}
+
+.text-white{
+    font-weight: bold;
+}
+
+
+.anim-change {
+    animation-duration:1s;
+    animation-name: text;
+    position: relative;
+    animation-iteration-count: infinite;
+}
+
+@keyframes text {
+    0% {
+        color: white;
+    }
+
+    100% {
+        color: red;
+    }
+}
